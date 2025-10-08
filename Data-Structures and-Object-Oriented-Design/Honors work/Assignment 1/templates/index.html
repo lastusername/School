@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deque Visualizer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Deque Visualizer</h1>
+
+  <div class="controls">
+    <input id="inputValue" type="text" placeholder="Enter value">
+    <button onclick="add('front')">Add Front</button>
+    <button onclick="add('rear')">Add Rear</button>
+    <button onclick="removeItem('front')">Remove Front</button>
+    <button onclick="removeItem('rear')">Remove Rear</button>
+  </div>
+
+  <div id="dequeContainer" class="deque"></div>
+
+  <script src="{{ url_for('static', filename='../static/script.js') }}"></script>
+</body>
+</html>
