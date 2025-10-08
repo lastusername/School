@@ -15,7 +15,7 @@ It shows how enqueue and dequeue operations work in real time — with smooth an
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Part | Technology |
 |------|-------------|
@@ -25,7 +25,7 @@ It shows how enqueue and dequeue operations work in real time — with smooth an
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 queue-visualizer/
@@ -45,7 +45,7 @@ queue-visualizer/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Backend (Flask)
 The backend stores the actual queue using a linked list.  
@@ -77,7 +77,7 @@ function enqueue(item) {
 
 ---
 
-## 💻 How to Run It
+## How to Run It
 
 ### 1. Clone the project
 ```bash
@@ -96,11 +96,11 @@ python app.py
 ```
 
 ### 4. Open it in your browser
-Go to 👉 http://127.0.0.1:5000/
+Go to http://127.0.0.1:5000/
 
 ---
 
-## 🎨 Example Animation Flow
+## Example Animation Flow
 
 1. You click “Enqueue” →  
    Flask adds the item to the queue → JavaScript animates a new block sliding in.
